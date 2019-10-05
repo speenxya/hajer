@@ -1,0 +1,31 @@
+.absoultesubmenu{
+	position:absolute;
+	left:0px !important;
+	top:28px;
+	display:none;
+	cursor:auto;
+	text-align:left;
+}
+
+
+.absoultesubmenu a {text-decoration:none}
+.zindex100{
+	z-index:1000;
+}
+
+.topmenutd{
+	z-index:1000!important;
+}
+.bodyfade{
+	z-index:-100!important;
+}
+.absolutemainmenu {
+	z-index:100!important;
+}
+
+.ie1 {position:relative;
+		z-index:1}
+
+#menudiv td div {padding-top:10px}
+.slideshow div {z-index:-1 !important}
+.slideshow .holder {z-index:-1 !important}

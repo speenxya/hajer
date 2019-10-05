@@ -1,0 +1,29 @@
+/* Start: Recommended Isotope styles */
+
+.isotope {
+  max-width: 100%;
+}
+
+/* clear fix */
+.isotope:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .item ---- */
+
+.item {
+  float: left;
+  width: 220px;
+  height: 220px;
+  border: 1px solid #9f8a51;
+  overflow:hidden;
+  background:#9f8a51;
+  
+}
+
+.item img{width:100%}
+
+
+

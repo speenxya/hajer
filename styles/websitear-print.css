@@ -1,0 +1,310 @@
+
+body  {
+		    margin:0;
+		    padding:0;
+			position:relative;
+			background-color:#ccccce
+	    	}
+
+body{font-family:Tahoma, Geneva, sans-serif;
+     font-size:80.5%;
+	 }
+
+* {direction:rtl}	 
+
+
+p{  margin:1px;
+	padding: 0;
+	border: 0;
+}
+
+
+/*fonts*/
+td {font-family:Tahoma, Geneva, sans-serif;
+       font-size:1em;
+	   color:#696969;
+	   }
+.inputtext{font-family:Tahoma, Geneva, sans-serif;
+       font-size:1em;
+	   color:#7c7c7c;
+	   border:1px solid #7c7c7c;
+	  }
+select {font-family:Tahoma, Geneva, sans-serif;
+       font-size:1em;
+	   color:#7c7c7c;
+	   border:1px solid #7c7c7c;
+       
+	  }
+.butt {font-family:Tahoma, Geneva, sans-serif;
+       font-size:1em;
+	   background-color:#20409A;
+	   border:1px solid #000000;
+	   color:#ffffff
+}
+
+/*links*/
+
+a {color:#696969;
+}
+a:hover {color:#1A388B}
+
+#menudiv a {text-decoration:none}
+
+.submenu_ul li a:hover{color:#1A388B;
+					}
+   
+
+
+/*tabs*/
+#tabs a{
+	cursor: pointer;
+}
+#tabs a.selected {color:#000000;
+            text-decoration:none;}
+.selectedtd {background-color:#ffffff}			
+
+#tabs1 a{
+	cursor: pointer;
+}
+#tabs1 a.selected1 {color:#ffffff;
+            text-decoration:none;}
+.selectedtd1 {background-color:#20409A}			
+
+#menudiv td {font-size:1.1em}		
+
+ul.marquee {
+	/* required styles */
+	display: block;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 1;
+	position: relative;
+	overflow: hidden;
+
+	/* optional styles for appearance */
+	width: 500px;
+	height: 18px; /* height should be included to reserve visual space for the marquee */
+}
+
+ul.marquee li {
+	/* required styles */
+	position: absolute;
+	top: -999em;
+	right: 0;
+	display: block;
+	white-space: nowrap; /* keep all text on a single line */
+
+	/* optional styles for appearance */
+	padding: 3px 5px;
+}
+
+.bc-selected {background-color:#20409A;
+             }
+.bc-selected a {color:#ffffff;
+                display:block;
+				padding:10px;
+				font-size:13px;
+				text-decoration:none}
+.bc-notselected { height:30px;
+	              background:url(../images/bcback.jpg) repeat-x;
+             }
+.bc-notselected a {
+                display:block;
+				padding-right:10px;
+				font-size:13px;
+				text-decoration:none}
+.bc-notselected a:hover {color:#20409A;
+                }
+				
+.content-breadcrumb {
+                     padding-right:0px;
+					 color:#5a6569;
+					 font-size:11px;}
+.content-breadcrumb a {text-decoration:none}					 
+.content-breadcrumb .notselected {color:#5a6569;}
+.content-breadcrumb .notselected a{color:#5a6569;
+									text-decoration:none}
+.content-breadcrumb .selected a{color:#20409A;
+								text-decoration:none}
+				
+
+.subtitle {color:#6E6E6E;
+            font-size:25px;
+		    letter-spacing:2px;}	
+.printabledata, .printabledata * {font-size:13px}
+
+
+.content_div {text-align:justify}
+.content_div ol,.content_div ul {list-style-type:decimal;
+                 margin-right:20px;
+				 }
+.content_div h5 {font-size:1em;
+				 font-weight:bold}		
+
+.opa{
+   filter:alpha(opacity=60); 
+   -moz-opacity: 0.6; 
+   opacity: 0.6; 
+}		 
+
+.book {text-decoration:underline;
+       color:#2257C1}
+.book:hover {text-decoration:none}	   
+.brochure {text-decoration:underline;
+       color:#2257C1}	   
+.brochure:hover {text-decoration:none}	   	   
+
+.contenttable {}
+.innerdata {background-color:#ffffff;
+              }
+.content-spacer {line-height:10px;
+                  }
+.smallertitle {font-size:37px;
+           font-weight:normal;
+		   color:#ffffff}
+
+
+/*table {border-collapse:collapse;
+        border-spacing:0;}
+*/
+.maintablediv {height:100%;
+               position:relative;
+			   width:100%;
+			   margin:0 auto;}
+.maintable {width:100%;
+            margin:0 auto;
+            height:100%;}
+
+
+.rtl {direction:rtl;}	
+		
+
+/*custom website*/
+.color1 {color:#7D7D7D}
+.color2 {color:#000000}
+.color3 {color:#FFFFFF}
+.color4 {color:#1F3E97}
+.color5 {color:#222222}
+.color6 {color:#2257C1}
+.tablewidth {width:1100px}
+#gmbrands {
+	width: 100px;
+
+	height: 25px;
+	position: absolute;
+	background: url(../images/bg_gmsabrands-ar.gif) no-repeat top left;
+	z-index: 11;
+	}
+#gmbrands .gmbrands {
+	display: block;
+	width: 160px;
+	height: 25px;
+	padding: 0 10px;
+	font-size: 11px;
+	color: #444;
+	text-decoration: none;
+	line-height: 25px;
+	}	
+#gmbrands ul {
+		position: absolute;
+		width: 190px;
+		right: 0;
+		top: 15px;
+		background: white;
+		padding: 1px;
+		border: solid #D5D5D5;
+		font-size: 11px;
+		border-image: initial;
+		border-width: 0 1px 1px;
+		}
+#gmbrands li {
+margin: 0;
+padding: 0;
+list-style: none;
+padding:4px;
+}	
+
+#quicklinks {
+	width: 90px;
+	height: 25px;
+	position: absolute;
+	background: url(../images/bg_gmsabrands-ar.gif) no-repeat top left;
+	z-index: 11;
+	}
+#quicklinks .quicklinks {
+	display: block;
+	width: 80px;
+	height: 25px;
+	padding: 0 10px;
+	font-size: 11px;
+	color: #444;
+	text-decoration: none;
+	line-height: 25px;
+	}	
+#quicklinks ul {
+		position: absolute;
+		width: 190px;
+		right: 0;
+		top: 15px;
+		background: white;
+		padding: 1px;
+		border: solid #D5D5D5;
+		font-size: 11px;
+		border-image: initial;
+		border-width: 0 1px 1px;
+		}
+#quicklinks li {
+margin: 0;
+padding: 0;
+list-style: none;
+padding:4px;
+}			
+
+.custom_inputtext {border:1px solid #C5C5C5;
+				  color:#444;
+				  height:21px;
+				  border-left:none;
+				  width:120px }
+	
+.printabledata, .printabledata * {font-size:13px}
+
+.sitemap li{padding:5px;}
+
+h1,h2,h3,h4,h5 {font-size:12px}
+
+/*latestnews*/
+.latestnews {margin-bottom:10px;
+			 margin-left:14px;
+			 text-align:left;
+			 direction:rtl;}
+.latestnewsdate {direction:rtl;
+                 color:#999898;
+				 font-size:0.85em;
+				 text-align:left;}
+
+.rowleft {background-color:#c0dcf3}
+.rowright {background-color:#eaf3f3}
+.rowrighteven {background-color:#f7ffff}
+.nopadding {padding:0}
+.bordertable {border-collapse:collapse;
+              border:1px solid black}
+.bordercell {border:1px solid black}			  
+
+/*widths*/
+.smallwidth {width:30px}
+.mediumwidth {width:175px}
+.largewidth {width:275px}
+
+/* messages*/
+.itsok {color:blue}
+.itsnotok {color:red}
+.msgclass {padding:5px}
+
+/*message beautification*/
+.errorclass {border:1px solid red}
+.errorclass1 {font-style:italic;
+              font-size:9px;
+			  color:red;
+			  padding-right:10px}
+.star_required {color:red}

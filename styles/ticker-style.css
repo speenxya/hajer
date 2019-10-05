@@ -1,0 +1,4 @@
+#news { float:right;  width:760px;height:37px;margin-top:10px; margin-left:0px;list-style-type:none;padding:0}
+#news a {color:#818181;text-decoration:none}
+#ticker-controls { float:left; width:60px; text-align:right; margin-top:15px;padding:0;display:none }
+#ticker-controls img { border:0; margin:0 5px 0 5px; }

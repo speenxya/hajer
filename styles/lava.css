@@ -1,0 +1,65 @@
+#lava {
+		/* you must set it to relative, so that you can use absolute position for children elements */
+		position:relative; 
+		text-align:right;
+		width:783px; 
+		height:40px;
+	}
+	
+	#lava ul {
+		/* remove the list style and spaces*/
+		margin:0; 
+		padding:0; 
+		list-style:none; 
+		display:inline;
+				
+		/* position absolute so that z-index can be defined */
+		position:absolute; 
+		
+		/* center the menu, depend on the width of you menu*/
+		left:110px; 
+		top:0; 
+		
+		/* should be higher than #box */
+		z-index:100;
+
+	}
+	
+	#lava ul li {
+		
+		/* give some spaces between the list items */
+		margin:0 15px; 
+		
+		/* display the list item in single row */
+		float:left;
+	}
+	
+	#lava #box {
+		
+		/* position absolute so that z-index can be defined and able to move this item using javascript */
+		position:absolute; 
+		left:0; 
+		top:20px; 
+		
+		/* should be lower than the list menu */
+		z-index:50; 
+
+		/* image of the right rounded corner */
+		
+		height:2px;
+		
+		/* add padding 8px so that the tail would appear */
+		padding-right:0px;
+		
+		/* self-adjust negative margin to make sure the box display in the center of the item */
+		margin-left:-5px;
+	}
+	
+	#lava #box .head {
+		/* image of the left rounded corner */
+		background:#9D030A;
+		height:2px;
+
+		/* self-adjust left padding to make sure the box display in the center of the item */
+		padding-left:10px;
+	}

@@ -1,0 +1,29 @@
+body {padding-bottom:60px}
+.breadcrumbs {display:none!important}
+
+.content img {max-width:100%;height:auto}
+
+a.butt:hover {color:#f5ee31;text-decoration:none}
+
+.mactive {color:#39b54a!important}
+#pageContent {margin-top:20px}
+.price-box {
+    margin: 0 0 0.6em 0;
+    font-size: 1.275em!important;
+    }
+    
+    .product__inside:hover {background-color:#cccccc!important}
+    
+    
+    .price-box__old {display:block}
+    .product__inside__price {min-height:40px}
+    
+    
+    
+       
+@media (max-width: 767px){
+.content {
+    margin-top: 7.5px!important;
+}
+#pageContent {margin-top:0!important}
+}

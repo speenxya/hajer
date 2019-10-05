@@ -1,0 +1,14 @@
+/*for print*/	  
+.header,.footer,.menu,.butt {display:none}
+.inputtext,select {border:none}
+.content {padding-top:0px}
+
+.titletable td{background:gray;
+             color:#ffffff}
+.rowleft{background:darkgray;
+         color:white}
+.rowright{background:#ffffff}
+.rowrighteven{background:lightgray}
+.star_required {display:none}
+.display_all {display:none}
+.display_only {display:block}
