@@ -100,7 +100,7 @@ body {padding:20px;margin:0}
         <table width="100%" height="100%" cellpadding="0" cellspacing="0" align="center">
          <tr>
                 <td valign="top">
-                  
+                   <div style="text-align:center"><img src="../images/logoloader.png" syle="width:100px"></div>
                 
 					   <?php if(isset($msgv)){?>
                        <div style="text-align:right"><?php echo $msgv?><br /><br /></div>
@@ -133,7 +133,7 @@ body {padding:20px;margin:0}
                  
                   
                    
-                   
+                   <div style="text-align:center;margin-top:20px"><a href="orderhistory.php" style="color: #fff;background-color: #1b3281;border-color: #1b3281;text-decoration:none;padding:0px 5px">الرجوع</a></div>
                    
                   </td>
           </tr>

@@ -101,7 +101,7 @@ body {padding:20px;margin:0}
          <tr>
                 <td valign="top">
                   
-                
+                 <div style="text-align:center"><img src="../images/logoloader.png" syle="width:100px"></div>
 					   <?php if(isset($msgv)){?>
                        <div><?php echo $msgv?><br /><br /></div>
                        <?php }?>
@@ -130,7 +130,7 @@ body {padding:20px;margin:0}
                  <?php }?>
                   
                    
-                   
+                   <div style="text-align:center;margin-top:20px"><a href="orderhistory.php" style="color: #fff;background-color: #1b3281;border-color: #1b3281;text-decoration:none;padding:5px 10px">Back</a></div>
                    
                   </td>
           </tr>
